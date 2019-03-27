@@ -36,7 +36,7 @@
 			$defaultPicture_address = 'uploads/default.png';
 			
 			// Connects to MySQL
-			$connection = new mysqli("localhost", "alfonso222", "Ragnorok2", "jobclickdb");
+			$connection = new mysqli("localhost", "********", "********", "jobclickdb");
 			
 			// Checks if we connected
 			if(mysqli_connect_errno())
